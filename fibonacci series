@@ -1,0 +1,24 @@
+language used : python 3
+
+t = int(input())
+
+for i in range(t):
+    s = input()
+    c = set(s)
+    l = []
+      for i in c:
+      l.append(s.count(i))
+    l.sort()
+    if len(l)<3:
+       print("Dynamic")
+    else:
+       if l[3]!=l[2]+1[1]:
+          l[0],l[1]=l[1],l[0]
+       for i in range(len(1)-2):
+          if l[i]+l[i+1]==l[i+2]:
+               continue
+             else:
+               print("Not")
+               break
+             else:
+               print("Dynamic")
