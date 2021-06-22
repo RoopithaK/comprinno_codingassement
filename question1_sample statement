@@ -1,0 +1,31 @@
+language used JAVA
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "main" olt of the class is public.*/
+
+class Codechef
+{
+   public static void main (String[] args) throws java.lang.Exception
+   {
+      //code starts here
+      Scanner sc = new Scanner(System.in);
+      int test_case = sc.nextInt();
+      while(test_case!=0){
+      int s = 0;
+      int i = 0;
+      int rem;
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      while(a>0 ||  b>0){
+          rem = a%10 * (int) Math.pow(10,i));
+          i++;
+          a = a/10;
+          b = b/10;
+       }
+       System.out.println(s);
+       test_case--;
+     }
+ }
